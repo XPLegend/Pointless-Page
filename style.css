@@ -15,6 +15,22 @@ background-attachment: fixed;
 }
 
 #main-container{
+    display: flex;
+}
+
+#settings-container{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: rgba(255, 248, 220, 0.6);
+}
+
+#settings-box{
+    width: 20%;
+    height: 500px;
+}
+
+#main-subcontainer{
 width: 760px;
 padding: 20px;
 border-radius: 20px;
@@ -41,7 +57,21 @@ button{
     font-size: 50px;
 }
 
-#settings{
+button:hover{
+    background-color: rgb(168, 172, 177);
+}
+
+#set-button{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none; border-radius: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#SETTINGS{
     margin: auto;
     width: var(--PCprefxWidth);
     height: 70px;
@@ -87,6 +117,9 @@ h3{
     border-radius: 20px;
     background-color: lightgray;
     text-align: center;
+    width: auto;
+    margin: 1%;
+    padding: 6px;
 }
 
 footer{
@@ -200,12 +233,6 @@ margin-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-
-button:hover{
-    background-color: rgb(168, 172, 177);
 }
 
 #submit{
