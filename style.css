@@ -14,36 +14,32 @@ background-size: cover;
 background-attachment: fixed;
 }
 
-#main-container{
-    display: flex;
-}
-
-#settings-container{
-    width: fit-content;
-    height: fit-content;
-    border-radius: 20px;
-    background-color: rgba(255, 248, 220, 0.6);
-}
-
-#settings-box{
-    width: 20%;
-    height: 500px;
-}
-
-#main-subcontainer{
-width: 760px;
-padding: 20px;
-border-radius: 20px;
-height: fit-content;
-margin: auto;
-background-color: rgba(255, 248, 220, 0.6);
-}
-
 h1{
-font-size: 50px;
-font-family: sans-serif;
-color: rgb(255, 48, 48);
-text-shadow: 5px 4px 3px black;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(255, 48, 48);
+    text-shadow: 5px 4px 3px black;
+}
+
+h3{
+    color: red;
+    font-family: sans-serif;
+    font-size: 40px;
+    border: 4px solid darkslategrey;
+    border-radius: 20px;
+    background-color: lightgray;
+    text-align: center;
+    width: auto;
+    margin: 1%;
+    padding: 6px;
+}
+
+footer{
+background-color: rgba(136, 136, 136, 0.6);
+border-radius: 10px;
+margin-top: 2px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 button{
@@ -61,6 +57,62 @@ button:hover{
     background-color: rgb(168, 172, 177);
 }
 
+#main-container{
+    display: flex;
+}
+
+#settings-container{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: rgba(255, 248, 220, 0.6);
+}
+
+#settings{
+    width: 20%;
+    height: 500px;
+}
+
+.settings-box{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid black; border-radius: 20px;
+    background-color: bisque;
+    padding-left: 5px;  padding-right: 5px;
+}
+
+.sub-settings{
+    width: 300px;
+    height: fit-content;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.explain-par{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.left-element{
+
+}
+
+.right-element{
+    
+}
+
+#main-subcontainer{
+width: 760px;
+padding: 20px;
+border-radius: 20px;
+height: fit-content;
+margin: auto;
+background-color: rgba(255, 248, 220, 0.6);
+}
+
 #set-button{
     width: auto;
     height: auto;
@@ -68,16 +120,6 @@ button:hover{
     border: none; border-radius: 20px;
     padding: 0px;
     margin: 0px;
-}
-
-
-#SETTINGS{
-    margin: auto;
-    width: var(--PCprefxWidth);
-    height: 70px;
-    border: 2px solid black; border-radius: 40px;
-    background-color: bisque;
-    display: flex;
 }
 
 .setbut{
@@ -107,27 +149,6 @@ button:hover{
 #page-title{
 text-align: center;
 font-family: sans-serif;
-}
-
-h3{
-    color: red;
-    font-family: sans-serif;
-    font-size: 40px;
-    border: 4px solid darkslategrey;
-    border-radius: 20px;
-    background-color: lightgray;
-    text-align: center;
-    width: auto;
-    margin: 1%;
-    padding: 6px;
-}
-
-footer{
-background-color: rgba(136, 136, 136, 0.6);
-border-radius: 10px;
-margin-top: 2px;
-padding-left: 10px;
-padding-right: 10px;
 }
 
 #How-To-Play{
