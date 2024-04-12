@@ -57,19 +57,40 @@ button:hover{
     background-color: rgb(168, 172, 177);
 }
 
+.setbut{
+    width: 56px;
+    border: 0px; background-color: inherit;
+    margin: auto;
+}
+.setbut:hover{
+    background-color: rgb(240, 199, 149);
+}
+
+.settings-btn{
+    border: none;
+    background-color: inherit;
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+}
+
+.settings-btn:hover{
+    background-color: rgb(240, 199, 149);
+}
+
 #main-container{
     display: flex;
 }
 
 #settings-container{
-    width: fit-content;
+    width: 25%;
     height: fit-content;
     border-radius: 20px;
     background-color: rgba(255, 248, 220, 0.6);
 }
 
 #settings{
-    width: 20%;
+    width: 100%;
     height: 500px;
 }
 
@@ -83,9 +104,8 @@ button:hover{
 }
 
 .sub-settings{
-    width: 300px;
+    width: 100%;
     height: fit-content;
-    padding: 2px;
     display: flex;
     justify-content: center;
 }
@@ -97,11 +117,13 @@ button:hover{
 }
 
 .left-element{
-
+    margin-left: 0px;
+    margin-right: auto;
 }
 
 .right-element{
-    
+    margin-right: 0px;
+    margin-left: auto;
 }
 
 #main-subcontainer{
@@ -122,14 +144,6 @@ background-color: rgba(255, 248, 220, 0.6);
     margin: 0px;
 }
 
-.setbut{
-    width: 56px;
-    border: 0px; background-color: inherit;
-    margin: auto;
-}
-.setbut:hover{
-    background-color: rgb(240, 199, 149);
-}
 #exponent:hover{
     background-color: var(--notWorkBGColor);
 }
