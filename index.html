@@ -18,6 +18,8 @@
 
         <div class="settings-box">
 
+            <h4>CHANGE DIFFICULTY</h4>
+
             <button type="button" class="settings-btn" id="sum">
                 <div class="sub-settings">
                     <div class="left-element"><p class="explain-par">Change game mode to <b>addition</b></p></div>
@@ -47,7 +49,13 @@
             </button>
             
         </div> 
-        <div id="settings-box">
+        <br>
+        <div class="settings-box">
+
+            <h4>CHANGE DIFFICULTY</h4>
+            <button class="settings-btn" id="difOne">1 digit</button>
+            <button class="settings-btn" id="difTwo">2 digits</button>
+            <button class="settings-btn" id="difThree">3 digits</button>
 
         </div>
         
@@ -56,33 +64,9 @@
 </div>
 
 <div id="main-subcontainer">
-
     <div id="page-title">
         <h1>MathMind</h1>           
     </div>  
-    
-    <div id="How-To-Play"> <!--Put it into the settings bar (menù a scomparsa)-->
-        <p>
-            <b>The rules</b> are simple: <br>
-            Your goal is to solve mathematical expressions with your mind. <br>
-            For each expression that you solve your <b>score, streak and counter</b> will increase. <br>
-            If you fail to solve one, your:<br>
-            Score - will stay the same <br>
-            Streak - turn back to 0    <br>
-            Counter - increase         <br>
-
-            <b>Mode Switch:</b> <br>
-            On the top of the page you can choose between varius operation type. <br>
-            <b>Difficulty Switch:</b> <br>
-            You can choose between three difficulties, by playing with one, two or three digits.
-        </p>
-    </div>
-    
-    <div id="difficulties">        
-        <button id="difOne">1 digit</button>
-        <button id="difTwo">2 digits</button>
-        <button id="difThree">3 digits</button>
-    </div>
 
     <div id="second-container">
      <div id="score-streak-container">
@@ -124,6 +108,7 @@
         </div>
 
         <div id="start">
+            <a href="#second-container">
             <button class="strBut" id="submit" type="button">
                 <img src="https://freeiconshop.com/wp-content/uploads/edd/forward-flat.png"/>
             </button>
@@ -131,8 +116,26 @@
             <button class="strBut" id="gen" type="button">
                 <img src="https://cdn-icons-png.flaticon.com/512/5199/5199939.png"/>
             </button>
+            </a>
         </div>
      </div>
+    </div>
+
+    <div id="How-To-Play"> <!--Put it into the settings bar (menù a scomparsa)-->
+        <p>
+            <b>The rules</b> are simple: <br>
+            Your goal is to solve mathematical expressions with your mind. <br>
+            For each expression that you solve your <b>score, streak and counter</b> will increase. <br>
+            If you fail to solve one, your:<br>
+            Score - will stay the same <br>
+            Streak - turn back to 0    <br>
+            Counter - increase         <br>
+
+            <b>Mode Switch:</b> <br>
+            It allows you to change the type of operation you want to train with. <br>
+            <b>Difficulty Switch:</b> <br>
+            You can choose between three difficulties, by playing with one, two or three digits.
+        </p>
     </div>
 
 </div>
@@ -140,8 +143,8 @@
     
 <footer>
 <p>Developed by: XPLegend</p>
-<p> Hosted by: GitHub </p>
-<p>Version 1.0.1  ---  Last modified on: 07/01/2024</p>  <!--F.T.A.: Automate this update process-->
+<p>Hosted by: GitHub </p>
+<p>Version 1.1.0  ---  Last modified on: 13/04/2024</p>  <!--F.T.A.: Automate this update process-->
 <p>More information about this project at: <a href="https://github.com/XPLegend/MathMind">MathMind</a>, on GitHub</p>
 </footer>
 

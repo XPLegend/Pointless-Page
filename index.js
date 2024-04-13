@@ -65,6 +65,18 @@ document.getElementById("minusKey").onclick = function addminus() {
     userResult.push("-");
 }
 
+//SETTINGS BOX TOGGLE
+document.getElementById("set-button").onclick = function toggleDisplay(){
+    let show = document.getElementById("settings");
+
+    if (show.style.display === "none") {
+        show.style.display = "block";
+
+    } else {
+        show.style.display = "none"    
+    }
+}
+
 //SET DIFFICULTY
 document.getElementById("difOne").onclick = function cd1(){
     difficulty = 9;
@@ -95,6 +107,8 @@ document.getElementById("division").onclick = function () {
     gameMode = "division";
     console.log(gameMode);
 }
+
+/*
 document.getElementById("exponent").onclick = function () {
     gameMode = "exponent";
     console.log(gameMode);
@@ -107,6 +121,7 @@ document.getElementById("loga").onclick = function () {
     gameMode = "loga";
     console.log(gameMode);
 }
+*/
 
 //GAME 
 document.getElementById("gen").onclick = function game() {

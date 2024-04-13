@@ -15,10 +15,13 @@ background-attachment: fixed;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 70px;
     font-family: sans-serif;
     color: rgb(255, 48, 48);
     text-shadow: 5px 4px 3px black;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 h3{
@@ -34,6 +37,11 @@ h3{
     padding: 6px;
 }
 
+h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
 footer{
 background-color: rgba(136, 136, 136, 0.6);
 border-radius: 10px;
@@ -41,6 +49,11 @@ margin-top: 2px;
 padding-left: 10px;
 padding-right: 10px;
 }
+
+#main-container{
+    display: flex;
+}
+
 
 button{
     margin: 5px;
@@ -67,7 +80,7 @@ button:hover{
 }
 
 .settings-btn{
-    border: none;
+    border: 2px solid rgb(221, 170, 112);
     background-color: inherit;
     height: fit-content;
     width: 100%;
@@ -78,12 +91,21 @@ button:hover{
     background-color: rgb(240, 199, 149);
 }
 
-#main-container{
-    display: flex;
+#set-button{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none; border-radius: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#set-button:hover{
+    background-color: rgb(168, 238, 150);
 }
 
 #settings-container{
-    width: 25%;
+    width: 20%;
     height: fit-content;
     border-radius: 20px;
     background-color: rgba(255, 248, 220, 0.6);
@@ -91,16 +113,18 @@ button:hover{
 
 #settings{
     width: 100%;
-    height: 500px;
+    height: fit-content;
+    display: none;
 }
 
 .settings-box{
     margin: auto;
     width: fit-content;
     height: fit-content;
-    border: 2px solid black; border-radius: 20px;
+    border: 2px solid black; border-radius: 15px;
     background-color: bisque;
     padding-left: 5px;  padding-right: 5px;
+    text-align: center;
 }
 
 .sub-settings{
@@ -111,7 +135,7 @@ button:hover{
 }
 
 .explain-par{
-    font-size: 15px;
+    font-size: 25px;
     font-family: sans-serif;
     margin: auto;
 }
@@ -131,28 +155,10 @@ width: 760px;
 padding: 20px;
 border-radius: 20px;
 height: fit-content;
-margin: auto;
+margin-left: 3%;
 background-color: rgba(255, 248, 220, 0.6);
 }
 
-#set-button{
-    width: auto;
-    height: auto;
-    background-color: transparent;
-    border: none; border-radius: 20px;
-    padding: 0px;
-    margin: 0px;
-}
-
-#exponent:hover{
-    background-color: var(--notWorkBGColor);
-}
-#sqrRoot:hover{
-    background-color: var(--notWorkBGColor);
-}
-#loga:hover{
-    background-color: var(--notWorkBGColor);
-}
 #rulbut:hover{
     background-color: var(--notWorkBGColor);
 }
@@ -170,13 +176,13 @@ background-color: rgba(225, 0, 0, 0.6);
 font-family: monospace;
 font-size: 15px;
 font-weight: italic;
-border-radius: 10px;
+border-radius: 15px;
 width: var(--PCprefxWidth);  height: fit-content;
 padding-left: 10px;  padding-right: 10px;
 padding-top: 5px;    padding-bottom: 5px;
 margin: auto;
 margin-top: 20px;
-margin-bottom: 40px;
+margin-bottom: 15px;
 }
 
 #second-container{
@@ -282,9 +288,4 @@ margin-bottom: 40px;
 img {
     width: 50px;
     height: 50px;
-}
-
-#difOne, #difTwo, #difThree{
-    width: fit-content;
-    font-size: 40px;
 }

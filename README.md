@@ -11,7 +11,15 @@ You can choose between various difficulty levels and differnt types of operation
 
 For every operation that you got right your score will increase so you can challenge yourself to get better and better every day!
 
-## What's New - Patch of 07/01/2024
+## What's New - Update of 13/04/2024
+
+-Release of Version 1.1.0: UI redesigned
+
+-Bug Fixes
+
+## Older Updates:
+
+### -Patch of 07/01/2024:
 
 -You can now answer a negative number, before I forgot to add that option
 
